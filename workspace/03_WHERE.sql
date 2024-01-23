@@ -108,8 +108,9 @@ FROM
 -- AND와 OR의 우선순위
 -- AND가 OR보다 우선순위가 높다. 만약 OR의 우선순위를 높이고 싶다면 소괄호를 사용해야 한다.
 SELECT 1 OR 0 AND 0;
+-- 결과 1
 SELECT(1 OR 0) AND 0;
-
+-- 결과 0
 SELECT 
 	*
 FROM
